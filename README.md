@@ -30,4 +30,5 @@ nodemon app.js
 
 ## Remarque Importante
 
-Pour modifier un film, utilisez l'onglet "raw" dans Postman et non "form-data", sinon req.body sera vide.
+1. Pour modifier un film, utilisez l'onglet "raw" dans Postman et non "form-data", sinon req.body sera vide.
+2. Le token généré est à renseigner afin d'accéder aux routes protégées
